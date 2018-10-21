@@ -10,7 +10,7 @@ Date: October 19, 2018
 
 using namespace std;
 
-string getstring(string prompt)
+string getstring(string prompt) // Gets a phrase from the user
 {
 	cout << prompt;
 	string a;
@@ -18,7 +18,7 @@ string getstring(string prompt)
 	return a;
 }
 
-char getchar(string prompt)
+char getchar(string prompt) // Gets a character to search for from the user
 {
 	cout << prompt;
 	char a;
@@ -26,13 +26,13 @@ char getchar(string prompt)
 	return a;
 }
 
-int char_count(char a, string b)
+int char_count(char a, string b) // Counts the number of time a character appears in a string
 {
 	int number = 0;
 	for (int i = 0; i < b.length(); i++)
 	{
-    		char c = b.at(i);
-		if (c == a || c == toupper(a))
+    		char c = b.at(i); // Allows individual characters in a string to be compared to the character being searched
+		if (c == tolower(a) || c == toupper(a)) // Checks both Lower and Uppercase for matches
 		{
 			number++;
 		}
