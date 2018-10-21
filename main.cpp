@@ -1,6 +1,6 @@
 /**
 Description: This program will accept a string and a character, then return the number of times the character occurs in the string.
-Filename: Char-Count.cpp
+Filename: charcount.cpp
 Author: Minhquang Phillip Tran
 Date: October 19, 2018
 **/
