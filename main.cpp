@@ -45,6 +45,6 @@ int main()
 	string phrase = getstring("Please input a phrase: ");
 	char a = getchar("What character would you like counted: ");
 	int count = char_count(a, phrase);
-	cout << "The number of \'" << a << "\'s in your phrase is: " << count << "." << endl;
+	cout << "The number of " << a << "\'s in your phrase is: " << count << "." << endl;
    	return 0;
 }
